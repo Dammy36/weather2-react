@@ -1,6 +1,6 @@
 import React from "react"
 import axios from "axios";
-import { Audio } from 'react-loader-spinner';
+
 export default function Weather(props) {
 
     function handleSubmit (response) {
@@ -16,15 +16,7 @@ export default function Weather(props) {
     
 
     return (
-        <Audio
-  height="80"
-  width="80"
-  radius="9"
-  color="orange"
-  ariaLabel="loading"
-  wrapperStyle
-  wrapperClass
-/>
+    <div></div>
         
     )
 }
