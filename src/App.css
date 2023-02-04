@@ -1,11 +1,10 @@
-.App {
-  text-align: center;
-  padding: 70px;
-  margin: 50px; 
-  border: 1px; 
-  color: black;
-}
 
+.App {
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+  margin:30px 50px;
+  max-width: 630px;
+  padding: 20px 16px 24px;
+}
 
 
 .App-header ul {
