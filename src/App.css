@@ -95,3 +95,9 @@ white-space: nowrap;
   line-height: 1px;
   color: #878787;
 }
+.hosted{
+  font-size: 80%;
+    font-weight: 400;
+    text-align: center;
+    margin: 50px;
+  }

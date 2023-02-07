@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './App.css';
-import Weather from './Weather';
+
 
 
 function App( ) {
@@ -55,11 +55,12 @@ function App( ) {
           <div className='col-sm-2'>15°</div>
           <div className='col-sm-2'>21°</div>
           <div className='col-sm-2'>20°</div>
-        </div>
-
-       <Weather city="Lagos"/>
-      </header>
+        </div>       
+      </header> 
+           
     </div>
+    
   );
+  
 }
 export default App;
