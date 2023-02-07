@@ -21,12 +21,32 @@ function App( ) {
         </form>
         <div>
           <h1>Lagos</h1>          
-        <p>Saturday 23:00         
-            <div className='weather-clouds'>Clouds</div>          
+        <p className='weather-clouds'>Saturday 23:00         
+            <div>Clouds</div>          
          </p>
         </div>
-        <div className='weather-today'>15</div>
-          <span className='weather-today2'>°C</span>
+        <div className='row'>
+          <div className='col-sm-6'>
+          <div className='weather-today'>15</div>          
+            <span className='weather-today2'>°C</span>
+          </div>
+          <div className='col-sm-6'>
+             <div className='weather-clouds'>
+            Prescipitation:
+              15%
+            </div>
+            <div className='weather-clouds'>Wind:11km/h</div>
+          </div>
+        </div>
+        <div className='row forcast-day' >
+          <div className='col-sm-2'> Mon</div>
+          <div className='col-sm-2'>Tue</div>
+          <div className='col-sm-2'>Wed</div>
+          <div className='col-sm-2'>Thur</div>
+          <div className='col-sm-2'>Fri</div>
+
+</div>
+
        <Weather city="Lagos"/>
       </header>
     </div>

@@ -60,7 +60,7 @@ h1{
   font-weight: 100px;
 }
 
-p{
+.weather-clouds{
   color: #878787;
   font-size: 16px;
   font-weight: 100px;
@@ -79,3 +79,12 @@ p{
     font-size: 16px;
     line-height: 1.5;
   }
+
+.forcast-day{
+color: red; 
+text-align: center;
+line-height: 10;
+font-size: 15px;
+font-weight: 400px;
+white-space: nowrap;
+}
