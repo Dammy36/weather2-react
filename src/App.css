@@ -88,3 +88,10 @@ font-size: 15px;
 font-weight: 400px;
 white-space: nowrap;
 }
+.forcast-temp{
+  font-weight: 400px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 1px;
+  color: #878787;
+}

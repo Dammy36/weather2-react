@@ -26,8 +26,11 @@ function App( ) {
          </p>
         </div>
         <div className='row'>
-          <div className='col-sm-6'>
-          <div className='weather-today'>15</div>          
+          <div className='col-sm-6'> 
+            
+            <div className='weather-today'>
+                                       
+            15</div>          
             <span className='weather-today2'>°C</span>
           </div>
           <div className='col-sm-6'>
@@ -45,7 +48,14 @@ function App( ) {
           <div className='col-sm-2'>Thur</div>
           <div className='col-sm-2'>Fri</div>
 
-</div>
+        </div>
+        <div className='row forcast-temp'>
+          <div className='col-sm-2'>21°</div>
+          <div className='col-sm-2'>19°</div>
+          <div className='col-sm-2'>15°</div>
+          <div className='col-sm-2'>21°</div>
+          <div className='col-sm-2'>20°</div>
+        </div>
 
        <Weather city="Lagos"/>
       </header>
