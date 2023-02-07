@@ -1,7 +1,7 @@
 
 .App {
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
-  margin:30px 50px;
+  margin:30px 70px;
   max-width: 630px;
   padding: 20px 16px 24px;
 }
@@ -52,5 +52,30 @@ button{
   border-color: green;
   color: white;
 }
+h1{
+  font-size: 25px;
+  color: #878787;
+  line-height: 28px;
+  margin: 0;
+  font-weight: 100px;
+}
 
-
+p{
+  color: #878787;
+  font-size: 16px;
+  font-weight: 100px;
+  line-height: 20px;
+}
+.weather-today{
+  font-size: 55px;
+  color: #333;
+  float: left;
+  font-weight: 400;
+  line-height: 1;
+}
+.weather-today2{
+  color: #333;
+    float: left;
+    font-size: 16px;
+    line-height: 1.5;
+  }

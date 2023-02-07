@@ -1,4 +1,5 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './App.css';
 import Weather from './Weather';
 
@@ -18,11 +19,14 @@ function App( ) {
           <button>search</button>
           <button className="current">current</button>
         </form>
-        
-        <h1>
-          Hello world we are here today
-        </h1>
-    
+        <div>
+          <h1>Lagos</h1>          
+        <p>Saturday 23:00         
+            <div className='weather-clouds'>Clouds</div>          
+         </p>
+        </div>
+        <div className='weather-today'>15</div>
+          <span className='weather-today2'>°C</span>
        <Weather city="Lagos"/>
       </header>
     </div>
