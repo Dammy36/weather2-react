@@ -7,6 +7,7 @@ import './App.css';
 function App( ) {
   return (
     <div className="App">
+      <div className='container'>
       <header className="App-header">
         <ul >
           <li><a href="/">Lisbon</a></li>
@@ -59,7 +60,7 @@ function App( ) {
       </header> 
            
     </div>
-    
+    </div>
   );
   
 }
